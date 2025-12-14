@@ -1,0 +1,93 @@
+.handing{
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(30, 20, 35, 0.6);
+    min-height: 100vh;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+body {
+    background: linear-gradient(135deg, #1c1c2b, #2a1f2d);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #f2e9f0;
+}
+
+.flower-text {
+    background-color: rgba(30, 20, 35, 0.7);
+    width: 80%;
+    margin: 60px auto;
+    padding: 25px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.flower-text p {
+    color: #f2e9f0;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.bright-flowers img {
+    width: 280px;
+    margin: 15px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease;
+}
+
+.bright-flowers img:hover {
+    transform: scale(1.08);
+}
+
+#Cute Flower1{
+    width: 280px;
+    margin: 15px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease;
+}
+
+img[alt] {
+    width: 280px;
+    margin: 15px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease;
+    
+}
+
+/* slider container */
+.slider {
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+/* sliding track */
+.slide-track {
+    display: flex;
+    width: calc(250px * 8);
+    animation: scroll 20s linear infinite;
+}
+
+/* images */
+.slide-track img {
+    width: 250px;
+    margin: 0 15px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 4));
+    }
+}
